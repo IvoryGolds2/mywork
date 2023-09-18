@@ -1,0 +1,306 @@
+/* 공통스타일링 */
+  .innerWrapper {
+    padding: 0 1.8rem 1.8rem 1.8rem;
+  }
+  .contentHeader {
+    height: 5rem;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 3%;
+    position: relative;
+  }
+
+.contentHeader button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+.contentHeader h1 {
+  text-align: center;
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.contentHeader img {
+  width: 1rem;
+  position: absolute;
+  left: 3%;
+}
+
+
+/* index 영역 */
+.indexBg {
+  width: 100%;
+  min-height: 100vh;
+  object-fit: cover;
+}
+.indexText {
+  width: 70%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 30%;
+}
+
+/* home 영역 */
+.homeHeaderimg {
+  width: 100%;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  margin-bottom: 1.8rem;
+}
+.homeHeaderimg img {
+  width: 30%;
+}
+
+.homeTopMenu {
+  width: 100%;
+}
+.homeTopBtn1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.homeTopBtn1 a {
+  width: 49%;
+}
+.homeTopBtn1 img{
+  width: 100%;
+}
+.homeTopBtn2 {
+  width: 100%;
+}
+.homeTopBtn2 a {
+  width: 100%;
+}
+.homeTopBtn2 img {
+  width: 100%;
+}
+.homeTopBtn2 img:last-child {
+  margin-top: 0.5rem;
+}
+.contentTitleBox {
+  display: flex;
+  align-items: center;
+}
+.contentBoxThick {
+  border-top: 0.5rem solid #ed6f14;
+  padding: 3%;
+  border-bottom: 0.1rem solid #eeaa7a;
+  margin: 2rem 0;
+  box-shadow: 0.2rem 0.1rem 0.1rem #e5e5e5;
+}
+.contentTitle {
+  font-size: 2rem;
+  color: #ed7118;
+  font-weight: 500;
+  margin-left: 0.3rem;
+}
+.contentBoxThick .content {
+  font-size: 1.6rem;
+  margin: 1rem 0;
+  line-height: 1.3;
+}
+.contentTitleBox {
+  display: flex;
+}
+.contentTitleBox img {
+  width: 3rem;
+  object-fit: cover;
+}
+.homeTopBtn3 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.homeTopBtn3 a {
+  width: 49%;
+}
+.homeTopBtn3 img{
+  width: 100%;
+}
+.homeTopBtn3 img:nth-child(1){
+  margin-bottom: 0.4rem;
+}
+.homeTopBtn3 img:nth-child(2){
+  margin-bottom: 0.4rem;
+}
+/* content 영역 */
+.contentBoxThin {
+  border: 0.1rem solid #f0c6b6;
+  border-radius: 0.8rem;
+  padding:  5% 5% 0 5%;
+  box-shadow: 0.2rem 0.1rem 0.3rem #e5e5e5;
+  margin-top: 1rem;
+}
+.titleFlexDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.toggleButton {
+  width: 100%;
+  margin-right: 5rem;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5%;
+}
+.toggleButton h1 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  /* margin-bottom: 5%; */
+}
+.toggleButton img {
+  width: 2rem;
+  margin-top: 0.4rem;
+}
+.contentBoxThin .content {
+  border-top: 0.1rem solid #b3b3b3;
+  padding: 1.5rem 0;
+  font-size: 1.6rem;
+  line-height: 1.3;
+}
+.contentImg {
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 2rem;
+}
+.contentTopMenu {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.subtitle {
+  font-size: 1.6rem;
+  background-color: #ffe7d7;
+  padding: 1rem ;
+  margin: 0.5rem;
+  border-radius: 1rem;
+}
+.contentbox2 {
+  border-top: #ef7c29 solid 0.3rem;
+  border-bottom: 0.1rem solid #eeaa7a;
+  box-shadow: 0.2rem 0.1rem 0.1rem #e5e5e5;
+  padding: 1.5rem 2rem 0 2rem;
+}
+.contentbox2 p{
+  font-size: 2rem;
+  font-weight: 600;
+  border-left: #ec6605 solid 0.3rem;
+  margin-bottom: 1rem;
+  padding: 0 1rem;
+}
+.contentbox2 pre {
+  font-size: 1.6rem;
+  line-height: 1.3;
+  margin-bottom: 1rem;
+}
+.contentbox2 img {
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+/* #contentBtn p:hover {
+  background-color: #ed6f14;
+  color: #ffffff;
+} */
+
+.contentBoxThin2 {
+  border: 0.1rem solid #f0c6b6;
+  border-radius: 0.8rem;
+  box-shadow: 0.2rem 0.1rem 0.3rem #e5e5e5;
+  margin-top: 1rem;
+}
+
+.contentBoxThin2 h1 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  /* margin-bottom: 5%; */
+}
+
+.contentBoxThin2 .content {
+  border-top: 0.1rem solid #f2d3c7;
+  padding: 1.5rem 2rem;
+  font-size: 1.6rem;
+  line-height: 1.3;
+  background-color: #fff5f0;
+}
+
+.subtitle-toggled {
+  background-color: #ed6f14;
+  color: #ffffff;
+}
+
+.toggleButton2 {
+  width: 100%;
+  margin-right: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+}
+.toggleButton2 img {
+  width: 2rem;
+  margin-top: 0.4rem;
+}
+.orangeColor {
+  text-align: left; /* 텍스트를 왼쪽 정렬로 설정 */
+  margin: 0; /* 기본 마진 제거 */
+  padding: 0; /* 기본 패딩 제거 */
+  line-height: 1.3;
+}
+/* faq영역 */
+
+.qnaToggleBox {
+  border: 0.1rem solid #ffcccc;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  padding: 1.5rem 1.5rem 0 1.5rem;
+}
+.qnaToggleBox:first-child {
+  margin-top: 2rem;
+}
+.qnaToggleBox:last-child {
+  margin-bottom: 3rem;
+}
+
+
+.qnaToggleBox h1 {
+  font-size: 1.7rem;
+}
+
+.qnaToggleBox .content {
+  border-top: 0.1rem solid #ffcccc;
+  font-size: 1.6rem;
+  line-height: 1.3;
+  border-top: #e8e8e8 solid 0.2rem;
+  color: #7d7d7d;
+  padding: 1.5rem 0;
+}
+
+.toggleButton {
+  width: 100%;
+  margin-right: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.toggleButton img {
+  width: 1.5rem;
+  margin-left: 1rem;
+}
+.toggleColor {
+  text-align: left; /* 텍스트를 왼쪽 정렬로 설정 */
+  margin: 0; /* 기본 마진 제거 */
+  padding: 0; /* 기본 패딩 제거 */
+  line-height: 1.3;
+}

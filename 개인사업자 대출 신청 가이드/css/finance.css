@@ -1,0 +1,82 @@
+.contentHeader {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  border-bottom: 0.1rem solid #eee;
+}
+.contentHeader a img {
+  width: 0.8rem;
+  margin: 2rem;
+}
+.contentHeader h1 {
+  font-size: 2rem;
+}
+.innerWrapper {
+  padding: 1.5rem;
+  overflow-wrap: break-word;
+}
+/* sub */
+main .title { 
+  margin-bottom: 2rem;
+}
+main .title .bank { 
+  color: #5da7cf;
+  font-size: 1.6rem; 
+  line-height: 1.5;
+
+}
+main .title h2 { 
+  font-size: 2.2rem; 
+  font-weight: 700;
+  padding: 0.5rem 0 0 0;
+}
+main .box { 
+  border: #e9ecf2 solid 0.1rem;
+  border-radius: 1rem; 
+  padding: 1.2rem 1rem ; 
+  margin-top: 1rem;
+}
+main .box pre { 
+  font-size: 1.6rem; 
+  line-height: 1.3;
+}
+main .box .detail_info dt { 
+  font-size: 1.6rem; 
+  font-weight: 700; 
+  line-height: 1.5; 
+  padding-top: 1.5rem;
+}
+main .box .detail_info dd { 
+  font-size: 1.6rem; 
+  line-height: 1.3; 
+  color: #666;
+}
+main .warn {
+  padding: 1.2rem 1rem ; 
+  line-height: 1.3; 
+  font-size: 1.2rem;
+  margin-top: 0.5rem; 
+  color: #bdbdbd;
+}
+.flBox {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.fl {
+  width: 49%;
+  background-color: #ecf5fe;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+.fl .left {
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.fl .right, b  {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #459ac8;
+}

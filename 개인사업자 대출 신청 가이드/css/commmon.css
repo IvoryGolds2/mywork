@@ -1,0 +1,218 @@
+.homeHeader {
+  padding: 1.5rem;
+  /* background-color: rgb(229, 250, 243); */
+}
+.contentHeader {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  border-bottom: 0.1rem solid #eee;
+}
+.contentHeader a img {
+  width: 0.8rem;
+  margin: 2rem;
+}
+.contentHeader h1 {
+  font-size: 2rem;
+}
+.innerWrapper {
+  padding: 1.5rem;
+  overflow-wrap: break-word;
+}
+/* index 영역 */
+.indexBg {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.indexText {
+  width: 70%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 35%;
+}
+
+/* home 영역 */
+.homeHeader img {
+  width: 40%;
+}
+.homeTopButtons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.homeTopBtn {
+  width: 49%;
+  object-fit: cover;
+}
+.homeTopBtn img{
+  width: 100%;
+  object-fit: cover;
+}
+.homeImgBox {
+  width: 100%;
+  padding: 2rem 0;
+}
+.homeImgBox img {
+  width: 100%;
+  object-fit: cover;
+}
+.homeMidButtons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.homeMidBtn {
+  width: 32%;
+}
+.homeMidBtn img {
+  width: 100%;
+}
+.homeBotButtons {
+  width: 100%;
+  padding: 2rem 0;
+}
+.homeBotButtons img {
+  width: 100%;
+}
+.marginBot {
+  margin-bottom: 0.5rem;
+}
+
+
+.homeTextBox h1{
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 2rem;
+}
+.blueBox {
+  background-color: #479bc9;
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 0.3rem 1rem;
+  border-radius: 4rem;
+  margin-top: 2rem;
+}
+.homeTextBox div{
+  font-size: 1.8rem;
+  margin-top: 1.2rem;
+  margin-bottom: 2.5rem;
+  padding: 0 0.5rem;
+  line-height: 1.3;
+}
+
+/* compare 영역 */
+.compareTopMenu {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  padding: 1rem 0;
+}
+.compareTopMenu h1 {
+  width: 50%;
+  font-size: 3rem;
+  font-weight: 500;
+}
+.compareTopMenu select {
+  width: 40%;
+  background-color: #ecf5fe;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-image: url(../img/open.png);
+  background-repeat: no-repeat;
+  background-position: 90% 50% ; 
+  background-clip: padding-box;
+  background-size: 10% 20%;
+  outline: none;
+}
+.content_wrap {
+  width: 100%;
+}
+
+.content_wrap ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.content_wrap ul li {
+  width: 49%;
+  height: 17rem;
+  border: 0.1rem solid #e2e7ee;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  padding: 2rem 1rem;
+}
+.content_wrap ul li h2 {
+  font-size: 1.6rem;
+  color: #3e96c6;
+  height: 15%;
+}
+.content_wrap ul li h3 {
+  font-size: 1.9rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 1.5rem;
+  height: 55%;
+}
+.minicontent {
+  display: flex;
+  justify-content: space-between;
+  height: 30%;
+}
+.minicontent span {
+  font-size: 1.5rem;
+  line-height: 1.3;
+  font-weight: 700;
+}
+.minicontent p {
+  font-size: 1.5rem;
+  line-height: 1.3;
+}
+.contentBox {
+  border: 0.1rem solid #e2e7ee;
+  padding: 1.5rem 1rem;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+}
+.contentBox h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+.contentBox p {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+  color: #57a4ce;
+}
+.contentBox pre {
+  font-size: 1.6rem;
+  line-height: 1.2;
+}
+.contentBox img {
+  width: 100%;
+  margin-top: 1rem;
+}
+.whatContent {
+  padding: 1rem 0 3rem 0;
+  font-size: 1.8rem;
+  line-height: 1.3;
+}
+.marginbox {
+  margin-top: 1.5rem;
+}
+.blueTitle {
+  color: #307a9f;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 1.5rem 0;
+}
+.centergogo {
+  margin: 0 auto;
+}

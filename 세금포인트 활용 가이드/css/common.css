@@ -1,0 +1,150 @@
+.homeHeader {
+  padding: 1.5rem;
+  /* background-color: rgb(229, 250, 243); */
+}
+.homeHeader img {
+  width: 40%;
+}
+
+.contentHeader {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.contentHeader a img {
+  width: 0.8rem;
+  margin: 2rem;
+}
+.contentHeader h1 {
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+.innerWrapper {
+  padding: 1.5rem;
+  overflow-wrap: break-word;
+}
+/* index 영역 */
+.indexBg {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.indexTextTop {
+  width: 72%;
+  padding-bottom: 1.2rem;
+}
+.indexTextBottom {
+  width: 58%;
+}
+.titleimg {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 9%;
+  top: 28%;
+}
+
+
+/* home */
+.homeImgBox {
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+.homeImgBox img{
+  width: 100%;
+}
+
+.homeMidButtons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+.homeMidBtn {
+  width: 32%;
+}
+.homeMidBtn img {
+  width: 100%;
+}
+.homeBotButtons {
+  width: 100%;
+  padding: 1rem 0;
+}
+.homeBotButtons img {
+  width: 100%;
+}
+.marginBot {
+  margin-bottom: 1rem;
+}
+.homeText {
+  font-size: 2rem;
+  font-weight: 700;
+}
+/* content 영역 */
+.whatisContentBox {
+  padding: 1rem;
+  border: 0.1rem solid #ddf1ff;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  line-height: 1.3;
+  border-radius: 1rem;
+}
+.subimg {
+  width: 100%;
+  border: 0.1rem solid #ddf1ff;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+.squaretitle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.squaretitle img {
+  width: 1rem;
+}
+.squaretitle h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-left: 1rem;
+}
+.criteriaimg {
+  width: 100%;
+}
+.triangle {
+  display: flex;
+  align-items: center;
+  border-bottom: 0.1rem solid #e8e8e8;
+  padding-bottom: 1rem;
+  padding-top: 0.5rem;
+}
+.triangle img {
+  width: 0.5rem;
+}
+.triangle h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-left: 1rem;
+}
+
+
+.anotherBox {
+  border: 0.1rem solid #ddf1ff;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.anotherContentBox {
+  font-size: 1.8rem;
+  line-height: 1.3;
+  padding-top: 1rem;
+}
+.firstbox {
+  margin-bottom: 2rem;
+}
+.anotherBox:last-child .firstbox {
+  margin-bottom: 0rem;
+}

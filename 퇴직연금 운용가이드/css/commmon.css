@@ -1,0 +1,202 @@
+/* 공통스타일링 */
+  .innerWrapper {
+    padding: 1rem 1.5rem 1.5rem 1.5rem;
+  }
+  .homeinnerWrapper{
+    padding: 1.5rem;
+  }
+  .contentHeader {
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 3%;
+    position: relative;
+  }
+  .contentHeader button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .contentHeader img {
+    width: 1rem;
+    position: absolute;
+    left: 3%;
+  }
+
+  h1 {
+    color: #07295f;
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    line-height: 1.3;
+  }
+  h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.2;
+  }
+/* index 영역 */
+.indexBackgroundImage img {
+  width: 100%;
+  height: 100vh;
+}
+
+/* home 영역 */
+.homeHeader img{
+  width: 50%;
+  margin: 2rem;
+}
+.hometopbtn {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.hometopbtn a {
+  width: 24%;
+}
+.hometopbtn a img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+.contentbox {
+  margin-bottom: 2rem;
+  width: 100%;
+  padding: 1rem;
+  border: #ededed solid 0.1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0.2rem 0.2rem 0.2rem #e6e6e6;
+}
+.contentbox h2 {
+  padding: 0.5rem 1rem 1rem 0;
+  border-bottom: #ededed solid 0.2rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #2d61c8;
+  line-height: 1.3;
+}
+.contentbox pre {
+  padding: 1rem 1rem 0.5rem 0;
+  font-size: 1.6rem;
+  line-height: 1.3;
+}
+.homemidbtn {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.homemidbtn a {
+  width: 49%;
+}
+.homemidbtn a img {
+  width: 100%;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+  box-shadow: 0.2rem 0.2rem 0.1rem #e6e6e6;
+}
+.homechartimg {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.homebotbtn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.homebotbtn a {
+  width: 48%;
+}
+.homebotbtn a img {
+  width: 100%;
+  border-radius: 0.5rem;
+  box-shadow: 0.2rem 0.2rem 0.1rem #e6e6e6;
+}
+.contenttitle {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.contenttitle h1 {
+  margin-left: 1rem;
+}
+.contenttitle img {
+  width: 1rem;
+  object-fit: cover;
+  margin-bottom: 1.5rem;
+}
+.subsub {
+  line-height: 1.3;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+.bluebox {
+  background-color: #f5fafc;
+  padding: 1.5rem 2rem;
+  font-size: 1.6rem;
+  border-radius: 0.5rem;
+  color: #1f57c4;
+  text-align: center;
+  font-weight: 500;
+}
+
+/* faq영역 */
+
+.qnaToggleBox {
+  border-bottom: 0.1rem solid #eaf3ff;
+
+}
+.qnaToggleBox:first-child {
+  margin-top: 2rem;
+  border-top: 0.1rem solid #eaf3ff;
+}
+.qnaToggleBox:last-child {
+  margin-bottom: 3rem;
+}
+
+
+.qnaToggleBox h1 {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+.qnaToggleBox span {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #5471d9;
+}
+
+.qnaToggleBox .content {
+  border-top: 0.1rem solid #eaf3ff;
+  padding: 3rem;
+  font-size: 1.6rem;
+  line-height: 1.3;
+  background-color: #f5fbff;
+  color: #949598;
+}
+
+.toggleButton {
+  width: 100%;
+  margin-right: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+}
+.toggleButton img {
+  width: 1.5rem;
+  margin-left: 1rem;
+}
+.toggleColor {
+  text-align: left; /* 텍스트를 왼쪽 정렬로 설정 */
+  margin: 0; /* 기본 마진 제거 */
+  padding: 0; /* 기본 패딩 제거 */
+  line-height: 1.3;
+}
