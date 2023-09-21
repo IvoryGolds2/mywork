@@ -30,3 +30,5 @@
         window.location.href = "https://private.happyi.kr/home.php";
     }
 </script>
+
+<!-- credit2.kanghyun1092.kr -->

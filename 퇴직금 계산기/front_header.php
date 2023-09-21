@@ -45,3 +45,5 @@
             window.location.href = "https://severance.naganpear.co.kr/home.php";
         }
     </script>
+
+    <!-- severance.jseol0043.co.kr -->

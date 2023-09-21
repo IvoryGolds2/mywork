@@ -26,3 +26,4 @@
             window.location.href = "https://health.inavione.co.kr/home.php";
         }
     </script>
+    <!-- health.jinisong390.co.kr -->

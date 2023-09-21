@@ -21,3 +21,5 @@
         window.location.href = 'https://mileage.oftheday.kr/home.php';
     }
 </script> -->
+
+<!-- mileage.jhokim.kr -->

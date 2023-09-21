@@ -30,3 +30,4 @@
         window.location.href = "https://thrifty.inavione.co.kr/home.php";
     }
 </script>
+<!-- thrifty.jinisong390.co.kr -->

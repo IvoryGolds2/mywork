@@ -26,3 +26,4 @@
             window.location.href = "https://resign.inavione.co.kr/";
         }
     </script>
+    <!-- resign.jinisong390.co.kr -->

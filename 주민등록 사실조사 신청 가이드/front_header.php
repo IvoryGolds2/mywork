@@ -26,32 +26,4 @@
             window.location.href = "https://factfind.cacaochocolat.co.kr";
         }
     </script>
-
-    
-<!-- 
-<div class="ads_wrap ads_main_big">
-    <ins class="adsbygoogle"
-        data-ad-client="ca-pub-2858778486116301"
-        data-ad-slot="5839717365"
-        data-language="ko"
-        ></ins>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-</div>
-
-<div>
-    <ins class="adsbygoogle"
-        style="display: block;"
-        data-language="ko"
-        data-ad-client="ca-pub-2858778486116301"
-        data-ad-slot="4087651997"
-        data-ad-format="autorelaxed"
-        data-matched-content-ui-type="image_sidebyside,image_sidebyside"
-        data-matched-content-rows-num="4,1"
-        data-matched-content-columns-num="1,1"
-        ></ins>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-</div> -->
+<!-- factfind.dab969879.co.kr -->
